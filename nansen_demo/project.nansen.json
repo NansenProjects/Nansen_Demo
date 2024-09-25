@@ -1,0 +1,16 @@
+{
+  "_type": "NANSEN Project Specification",
+  "_description": "Contains properties and preferences for a NANSEN project",
+  "_version": "1.0.0",
+  "Properties": {
+    "Name": "nansen_demo",
+    "ShortName": "nansen_demo",
+    "Description": ""
+  },
+  "Preferences": {
+    "DataModule": [
+      "nansen.module.ophys.twophoton",
+      "nansen.module.general.core"
+    ]
+  }
+}
