@@ -55,7 +55,7 @@ function varargout = downloadDemoData(sessionObject, varargin)
     fileName = rawDownloadURI.Path(end);
 
     rawSavePath = fullfile(sessionFolder, fileName);
-    downloadFile(rawSavePath, rawDownloadURI)
+    downloadFile(rawSavePath, rawDownloadURI, "DisplayMode", params.DialogMode)
        
     iniDownloadURI = matlab.net.URI("https://www.dropbox.com/scl/fi/3f90o13sdzn0l4f3v6fjr/20220503_17_05_26_m1442-20220503-01_XYT_1000.ini?rlkey=jzr2ko6b76fdya6gghrspo6gv&st=khdlu761&dl=1");
     fileName = iniDownloadURI.Path(end);
@@ -81,5 +81,5 @@ function params = getDefaultParameters()
     % Add fields to this struct in order to define parameters for this
     % session method:
     params = struct();
-
+    params.DialogMode = 'Dialog Box';
 end
