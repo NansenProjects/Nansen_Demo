@@ -1,0 +1,308 @@
+[
+  {
+    "VariableName": "id",
+    "ColumnLabel": "id",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 1
+  },
+  {
+    "VariableName": "experiment_container_id",
+    "ColumnLabel": "experiment_container_id",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 2
+  },
+  {
+    "VariableName": "mouse_id",
+    "ColumnLabel": "mouse_id",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 3
+  },
+  {
+    "VariableName": "session_type",
+    "ColumnLabel": "session_type",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 4
+  },
+  {
+    "VariableName": "targeted_structure_acronym",
+    "ColumnLabel": "targeted_structure_acronym",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 5
+  },
+  {
+    "VariableName": "age_in_days",
+    "ColumnLabel": "age_in_days",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 6
+  },
+  {
+    "VariableName": "fail_eye_tracking",
+    "ColumnLabel": "fail_eye_tracking",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 7
+  },
+  {
+    "VariableName": "imaging_depth",
+    "ColumnLabel": "imaging_depth",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 8
+  },
+  {
+    "VariableName": "sex",
+    "ColumnLabel": "sex",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 9
+  },
+  {
+    "VariableName": "full_genotype",
+    "ColumnLabel": "full_genotype",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 10
+  },
+  {
+    "VariableName": "cre_line",
+    "ColumnLabel": "cre_line",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 11
+  },
+  {
+    "VariableName": "date_of_acquisition",
+    "ColumnLabel": "date_of_acquisition",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 12
+  },
+  {
+    "VariableName": "name",
+    "ColumnLabel": "name",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 13
+  },
+  {
+    "VariableName": "experiment_container",
+    "ColumnLabel": "experiment_container",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 14
+  },
+  {
+    "VariableName": "specimen",
+    "ColumnLabel": "specimen",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 15
+  },
+  {
+    "VariableName": "targeted_structure",
+    "ColumnLabel": "targeted_structure",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 16
+  },
+  {
+    "VariableName": "well_known_files",
+    "ColumnLabel": "well_known_files",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 17
+  },
+  {
+    "VariableName": "dataset_name",
+    "ColumnLabel": "dataset_name",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 18
+  },
+  {
+    "VariableName": "subjectID",
+    "ColumnLabel": "subjectID",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 19
+  },
+  {
+    "VariableName": "sessionID",
+    "ColumnLabel": "sessionID",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 144,
+    "IsEditable": false,
+    "ColumnOrder": 20
+  },
+  {
+    "VariableName": "Ignore",
+    "ColumnLabel": "Ignore",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 21
+  },
+  {
+    "VariableName": "Date",
+    "ColumnLabel": "Date",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 22
+  },
+  {
+    "VariableName": "Time",
+    "ColumnLabel": "Time",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 23
+  },
+  {
+    "VariableName": "Experiment",
+    "ColumnLabel": "Experiment",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 24
+  },
+  {
+    "VariableName": "Protocol",
+    "ColumnLabel": "Protocol",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 25
+  },
+  {
+    "VariableName": "Description",
+    "ColumnLabel": "Description",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 26
+  },
+  {
+    "VariableName": "DataLocation",
+    "ColumnLabel": "DataLocation",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 27
+  },
+  {
+    "VariableName": "Progress",
+    "ColumnLabel": "Progress",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 28
+  },
+  {
+    "VariableName": "Notebook",
+    "ColumnLabel": "Notebook",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 29
+  },
+  {
+    "VariableName": "SubjectID",
+    "ColumnLabel": "SubjectID",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 30
+  },
+  {
+    "VariableName": "DateOfBirth",
+    "ColumnLabel": "DateOfBirth",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": true,
+    "ColumnOrder": 31
+  },
+  {
+    "VariableName": "BiologicalSex",
+    "ColumnLabel": "BiologicalSex",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": true,
+    "ColumnOrder": 32
+  },
+  {
+    "VariableName": "Species",
+    "ColumnLabel": "Species",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": true,
+    "ColumnOrder": 33
+  },
+  {
+    "VariableName": "Strain",
+    "ColumnLabel": "Strain",
+    "ShowColumn": true,
+    "SkipColumn": false,
+    "ColumnWidth": 100,
+    "IsEditable": false,
+    "ColumnOrder": 34
+  }
+]
