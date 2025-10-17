@@ -1,7 +1,7 @@
 function varargout = downloadDemoData(sessionObject, varargin)
-%DOWNLOADDEMODATA Summary of this function goes here
-%   Detailed explanation goes here
-
+%DOWNLOADDEMODATA Download demo data for selected session
+%   Downloads a small (500MB) two-photon sample file for the selected
+%   session
 
 % % % % % % % % % % % % % % % INSTRUCTIONS % % % % % % % % % % % % % % %
 % - - - - - - - - - - You can remove this part - - - - - - - - - - - 
