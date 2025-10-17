@@ -29,8 +29,15 @@ function varargout = downloadDemoData(sessionObject, varargin)
     
 % % % % % % % % % % % % % % CUSTOM CODE BLOCK % % % % % % % % % % % % % % 
     
-    sessionFolder = sessionObject.getSessionFolder('Rawdata', 'force');
+    % Get the session folder
+    rawDataLocation = sessionObject.DataLocation(1);
+    sessionFolder = fullfile(rawDataLocation.RootPath, rawDataLocation.Subfolders);
     
+    % Create session folder if it does not exist
+    if ~isfolder(sessionFolder)
+        sessionObject.createSessionFolder('Rawdata', 'force', true)
+    end
+
     rawDownloadURI = matlab.net.URI("https://www.dropbox.com/scl/fi/6sgxqwzo1d8649m917cif/20220503_17_05_26_m1442-20220503-01_XYT_1000.raw?rlkey=78o94637m39xtnidpze31jpui&st=a7m1sz37&dl=1");
     fileName = rawDownloadURI.Path(end);
 
