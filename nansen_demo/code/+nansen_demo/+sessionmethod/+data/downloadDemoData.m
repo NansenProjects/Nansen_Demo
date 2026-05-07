@@ -38,11 +38,13 @@ function varargout = downloadDemoData(sessionObject, varargin)
         sessionObject.createSessionFolder('Rawdata', 'force', true)
     end
 
+    appInstance = nansen.App.getInstance();
+
     rawDownloadURI = matlab.net.URI("https://www.dropbox.com/scl/fi/6sgxqwzo1d8649m917cif/20220503_17_05_26_m1442-20220503-01_XYT_1000.raw?rlkey=78o94637m39xtnidpze31jpui&st=a7m1sz37&dl=1");
     fileName = rawDownloadURI.Path(end);
 
     rawSavePath = fullfile(sessionFolder, fileName);
-    downloadFile(rawSavePath, rawDownloadURI, "DisplayMode", params.DialogMode)
+    downloadFile(rawSavePath, rawDownloadURI, "DisplayMode", params.DialogMode, "Figure", appInstance.Figure)
        
     iniDownloadURI = matlab.net.URI("https://www.dropbox.com/scl/fi/3f90o13sdzn0l4f3v6fjr/20220503_17_05_26_m1442-20220503-01_XYT_1000.ini?rlkey=jzr2ko6b76fdya6gghrspo6gv&st=khdlu761&dl=1");
     fileName = iniDownloadURI.Path(end);
